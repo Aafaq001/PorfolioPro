@@ -1,0 +1,29 @@
+.proj-name{
+    font-size: 100%;
+    display: inline;
+    font-weight: 600;
+    margin: 0 10px;
+    color: orangered;
+}
+.proj-dur{
+    font-size: 90%;
+    width: 50px;
+    border: 1px solid rgb(243, 85, 11);
+    border-radius: 8px;
+    background-color: rgb(243, 85, 11);
+    color: #fff;
+    text-align: center;
+    position: relative;
+    float: right;
+}
+.tech-used{
+    font-size: 90%;
+    margin: 10px 20px 10px;
+    font-weight: 600;
+}
+.proj-details{
+    margin: 10px 20px;
+    font-size: 80%;
+    text-align: justify;
+}
+

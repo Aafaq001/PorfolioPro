@@ -1,0 +1,51 @@
+.ins-name{
+    font-size: 100%;
+    display: inline;
+    font-weight: 600;
+    margin: 0 10px;
+    color: orangered;
+}
+.year{
+    font-size: 90%;
+    display: inline-block;
+    text-align:right;
+    border: 1px solid rgb(243, 85, 11);
+    border-radius: 8px;
+    background-color: rgb(243, 85, 11);
+    color: #fff;
+    text-align: center;
+    position: relative;
+    float: right;
+    padding:0 5px;
+}
+.deg{
+    margin: 20px;
+    font-size: 90%;
+}
+@media screen and ( max-width:460px ) {
+    .year{
+        font-size: 90%;
+        text-align:right;
+        border: 1px solid rgb(243, 85, 11);
+        border-radius: 8px;
+        background-color: rgb(243, 85, 11);
+        color: #fff;
+        text-align: center;
+        display: block;
+        position: absolute;
+        margin-left: 20px;
+        margin-bottom: 5px;
+    }
+    .ins-name{
+        font-size: 100%;
+        display: inline-block;
+        font-weight: 600;
+        margin: 0 10px;
+        color: orangered;
+    }
+    .deg{
+        margin: 20px;
+        font-size: 90%;
+        margin-top: 30px;
+    }
+}

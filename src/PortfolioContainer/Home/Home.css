@@ -1,0 +1,12 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 570px;
+  background-image: url("https://wallpaperaccess.com/full/38119.jpg");
+}
+p {
+  color: orangered;
+  text-align: center;
+  font-size: 75%;
+}

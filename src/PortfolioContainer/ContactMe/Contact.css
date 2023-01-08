@@ -1,0 +1,146 @@
+.contact-me {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin: 50px 0;
+}
+.contact-sec {
+  width: 80%;
+  height: 500px;
+  background-color: rgb(27, 27, 27);
+  align-self: center;
+  border-radius: 20px;
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+}
+.contact-image {
+  position: relative;
+  width: 55%;
+  display: flex;
+  color: #fff;
+  margin: 20px 10px;
+  height: 100%;
+}
+.contact-form {
+  position: relative;
+  display: flex;
+  width: 45%;
+  height: 100%;
+}
+.inner-data {
+  position: relative;
+  display: block;
+  float: left;
+}
+.icn {
+  margin: 10px 20px;
+}
+.mail-img {
+  position: absolute;
+  display: block;
+  width: 95%;
+  height: 50%;
+  background-image: url("../../assets/ContactMe/mailz.jpeg");
+  background-size: cover;
+  background-position: center;
+  bottom: 85px;
+  left: 0px;
+  opacity: 0.5;
+}
+.gic {
+  display: block;
+  width: 100%;
+}
+.colz1 {
+  display: block;
+}
+.syeh {
+  display: block;
+  position: absolute;
+  top: 140px;
+  color: rgb(159, 174, 182);
+}
+.form-bg {
+  height: 450px;
+  width: 100%;
+  background-color: #fff;
+  margin: 25px 30px 30px 30px;
+  border-radius: 20px;
+}
+.main-formm {
+  text-align: left;
+  margin: 10px;
+}
+label {
+  font-weight: bolder;
+}
+input {
+  width: 100%;
+  background-color: rgb(230, 229, 229);
+  border: none;
+  height: 35px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+textarea {
+  width: 100%;
+  background-color: rgb(230, 229, 229);
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+form {
+  margin-top: 20px;
+}
+.form-btn {
+  padding: 7px 20px;
+  border-radius: 20px;
+}
+@media screen and (max-width: 760px) {
+  .icn {
+    margin: 10px 10px;
+  }
+  .gic {
+    font-size: 110%;
+  }
+  .form-bg {
+    margin: 5px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .syeh,
+  .mail-img {
+    text-align: left;
+    font-size: 80%;
+    visibility: hidden;
+  }
+  .contact-form {
+    position: absolute;
+    width: 80%;
+    left: 10px;
+    bottom: auto;
+    align-items: center;
+  }
+  .form-bg {
+    height: 65%;
+    margin-top: 80px;
+    margin-left: 50px;
+  }
+  .contact-image {
+    width: 100%;
+    margin-left: 15%;
+  }
+  .form-bg {
+    height: 400px;
+    margin-bottom: -100px;
+    display: inline-block !important;
+    position: relative !important;
+  }
+  .contact-form {
+    height: 400px;
+  }
+  .main-formm {
+    height: 400px;
+  }
+}

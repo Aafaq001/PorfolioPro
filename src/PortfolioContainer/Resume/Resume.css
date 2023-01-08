@@ -1,0 +1,127 @@
+.main-resume{
+    padding-top: 100px;
+    text-align: center;
+}
+.further-details h1{
+    font-weight: 900;
+    font-family: "poppins Bold";
+    font-size: 3em;
+} 
+.formal-details {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    min-height: fit-content;
+}
+.fabs-icons{
+    display: flex;
+    width: 30px;
+    flex-direction: column;
+    margin: 50px 0 50px 0;
+    padding: 50px 0;
+    background-color: black;
+}
+.icon{
+    margin: 20px 8px;
+    color: #fff;;
+}
+.icons-headings h6{
+    text-align: left;
+    margin: 35px 20px;
+}
+
+.icons-headings .resume-btn{
+    text-decoration: none;
+    color: Black;
+    font-weight: 600;
+    border: none;
+    background-color: #fff;
+}
+.icons-headings .resume-btn:hover{
+    color:orangered;
+}
+.or-spacer-vertical {
+    display:inline-block;
+    margin:0 50px;
+    position:relative; 
+}
+    .mask { 
+      overflow:hidden;
+       width:20px; height:350px; 
+    }
+    .left .mask::after { 
+      content:''; 
+      display:block; 
+      margin-left:-20px;
+      width:20px;
+        height:100%;  
+      border-radius:12px / 125px;  
+      box-shadow:0 0 8px black;
+    }
+.data{
+    width: 500px;
+    text-align: left;
+    margin: 0 20px;
+}
+.center-ball1{
+    content: " ";
+    width: 0.825rem;
+    height: 0.825rem;
+    background: rgb(243, 85, 11);
+    display: inline-block;
+    border-radius :100%;
+    top: -4px;
+    left: 50%;
+    margin: 0 0 0 0;
+}
+@media screen and ( max-width:760px ) {
+    .or-spacer-vertical {
+        display:inline-block;
+        margin:0 20px;
+        position:relative; 
+    }
+    .data{
+        width: 500px;
+        text-align: left;
+        margin: 0 0;
+    }
+}
+@media screen and ( max-width:660px ) {
+    .or-spacer-vertical {
+        display:inline-block;
+        margin:0 0;
+        position:relative; 
+    }
+    .data{
+        width: 500px;
+        text-align: left;
+        margin: 0 0;
+        font-size: 90%;
+    }
+    .icons-headings h6{
+        text-align: left;
+        margin: 35px 10px;
+        font-size: 90%;
+    }
+}
+@media screen and ( max-width:660px ) {
+    .or-spacer-vertical {
+        display:inline-block;
+        margin:0 0;
+        position:relative; 
+    }
+    .data{
+        width: 500px;
+        text-align: left;
+        margin: 0 0;
+        font-size: 80%;
+    }
+    .icons-headings h6{
+        text-align: left;
+        margin: 35px 0px;
+        font-size: 80%;
+    }
+}
+

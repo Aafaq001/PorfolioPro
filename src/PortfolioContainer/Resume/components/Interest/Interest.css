@@ -1,0 +1,12 @@
+.intrst{
+    font-size: 100%;
+    display: inline;
+    font-weight: 600;
+    margin: 0 10px;
+    color: orangered;
+}
+.details{
+    margin: 0 20px 10px;
+    font-size: 80%;
+    text-align: justify;
+}

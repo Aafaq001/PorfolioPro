@@ -1,0 +1,233 @@
+.AboutMe-container{
+    margin-top: 100px;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-family: "poppins Bold";
+}
+p{
+    color: rgb(255, 255, 255);
+    margin-top: -0.625rem;
+}
+
+.center-ball:before{
+    content: " ";
+    width: 1.875rem;
+    height: 0.625rem;
+    background: rgb(243, 85, 11);
+    display: inline-block;
+    border-radius :30%;
+    top: -4px;
+    left: 50%;
+    margin: 0 0 0 0;
+}
+.hrs{   
+    flex: 1;
+    background-color: Black;
+    height: 3px;  
+}
+.main-aboutme{
+    background-color:rgb(255, 255, 255) ;
+    width: 80%;
+    height: 43.75rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0.625rem auto 2.5rem;
+}
+.picturee{
+    width: 50%;
+    height: 100%;
+    background-image: url("../../assets/AboutMe/aboutme.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    background-position: center;
+    vertical-align: auto;
+}
+.AboutMe-description{
+    width: 50%;
+    display: inline-block;
+    height: 100%;
+    padding: 3.125rem;
+    position: absolute;
+}
+.AboutMe-Details h1{
+    text-align: center;
+    font-size: 3em;
+}
+.AboutMe-Details h5{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position: relative;
+    font-size: 1.5rem;
+}
+.AboutMe-description{
+    height: 100%;
+    text-align: justify;
+}
+.AboutMe-description .aboutme-para{
+    position: relative;
+    width: 80%;
+    margin-bottom: 9.5rem;
+    font-size: 0.9rem;
+    color: rgb(97, 96, 95);
+}
+.aboutme-head{
+    font-weight: 900;
+}
+ul{
+    list-style: none;
+    margin-bottom: 20px;
+    width: 80%;
+}
+li:before{
+    content: "\2022";
+    font-size: 1.8rem;
+    color: orangered;
+    margin:0 1.2rem 0 0;
+}
+.btn2:hover{
+    margin: 0 0 0 28px;
+    background-color: rgb(26, 25, 25);
+    color: rgb(255, 253, 253);
+}
+@media screen and  (max-width: 1130px){
+    .AboutMe-description{
+        font-size: 0.8rem;
+    }
+    .AboutMe-description .aboutme-para{
+        font-size: 90%;
+    }
+    .aboutme-head{
+        font-size: 180%;
+    }
+    .btn1,.btn2{
+        width: 120px;
+        padding: 11px 0;
+        z-index: 700;
+    }
+    li{
+        font-size: 90%;
+    }
+}
+@media screen and  (max-width: 850px){
+    .AboutMe-description{
+    padding: 30px;
+        font-size: 0.8rem;
+    }
+    .AboutMe-description .aboutme-para{
+        font-size: 90%;
+        margin-bottom: 100px;
+    }
+    .aboutme-head{
+        font-size: 140%;
+    }
+    .btn1,.btn2{
+        width: 120px;
+        padding: 11px 0;
+        z-index: 700;
+    }
+}
+@media screen and  (max-width: 760px){
+    .AboutMe-description{
+        padding: 25px;
+        padding-top: 40px;
+        font-size: 0.8rem;
+    }
+    .AboutMe-description .aboutme-para{
+        margin-bottom: 80px;
+    }
+    .aboutme-head{
+        font-size: 150%;
+    }
+   
+    li{
+        font-size: 80%;
+    }
+    ul{
+        margin-bottom: 10px;
+    }
+    .center-ball:before{
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        display: inline-block;
+        left: 50%;
+        margin: 4px 0 0 0;
+    }
+    .btn1{
+       text-decoration: none;
+       margin-left: 25px;
+       margin-right: 0px;
+       display: block;
+    }
+    .btn2{
+        text-decoration: none;
+        margin-left: 0px;
+        margin-right: 0px;
+        display: block;
+        border: none;
+     }
+     
+}
+@media screen and  (max-width: 660px){
+    .AboutMe-description{
+        padding: 25px;
+        padding-top: 35px;
+        font-size: 0.8rem;
+        text-align: inherit;
+    }
+    .AboutMe-description .aboutme-para{
+        font-size: 80%;
+        margin-bottom: 60px;
+    }
+    .aboutme-head{
+        font-size: 120%;
+    }   
+}
+@media screen and  (max-width: 540px){
+    .AboutMe-description{
+        padding: 5px;
+        padding-top: 35px;
+        font-size: 0.8rem;
+        text-align: inherit;
+    }
+    .AboutMe-description .aboutme-para{
+        font-size: 80%;
+        margin-bottom: 60px;
+    }
+    .aboutme-head{
+        font-size: 100%;
+    }
+    .btn1,.btn2{
+        width: 100px;
+        padding: 11px 0;
+        z-index: 700;
+        font-size: 90%;
+    }
+}
+@media screen and  (max-width: 422px){
+    .AboutMe-description{
+        padding: 5px;
+        padding-top: 35px;
+        font-size: 0.8rem;
+        text-align: inherit;
+    }
+    .AboutMe-description .aboutme-para{
+        font-size: 80%;
+        margin-bottom: 60px;
+    }
+    .aboutme-head{
+        font-size: 90%;
+        
+    }
+    .btn1{
+        align-self: center;
+        margin-left: 25px;
+    }
+    .btn1,.btn2{
+        width: 50%;
+        padding: 2%;
+    }
+}

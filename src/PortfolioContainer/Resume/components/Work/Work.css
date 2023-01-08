@@ -1,0 +1,48 @@
+.name{
+    font-size: 100%;
+    display: inline;
+    font-weight: 600;
+    margin: 0 10px;
+    color: orangered;
+}
+.dur{
+    font-size: 90%;
+    width: inherit;
+    border: 1px solid rgb(243, 85, 11);
+    border-radius: 8px;
+    background-color: rgb(243, 85, 11);
+    color: #fff;
+    text-align: center;
+    position: relative;
+    float: right;
+    padding: 0 5px;
+}
+.task{
+    margin: 20px;
+    font-size: 90%;
+    text-align: justify;
+}
+@media screen and ( max-width:460px ) {
+    .name{
+        font-size: 100%;
+        display: inline;
+        font-weight: 600;
+        margin: 0 10px;
+        color: orangered;
+    }
+    .dur{
+        font-size: 90%;
+        width: inherit;
+        border: 1px solid rgb(243, 85, 11);
+        border-radius: 8px;
+        background-color: rgb(243, 85, 11);
+        color: #fff;
+        text-align: center;
+        position: relative;
+        float: right;
+        display: block;
+        position: absolute;
+        margin-left: 20px;
+        margin-bottom: 5px;
+    }
+}
